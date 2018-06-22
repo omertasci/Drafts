@@ -1,0 +1,71 @@
+Area of the largest island (https://www.codela.io/challenges/5b1aa02ff96fa061316ccf55/area-of-the-largest-island)
+
+You are given an array representing a grid of a 2-dimensional map, along with the dimensions to correctly parse it. 
+Array only consists of <code>1</code>s and <code>0</code>s, where 1 represents land and 0 represents seas.
+
+An island is a collection of vertically or horizontally connected lands. 
+Can you find the largest island? (You can assume the surrounding of the grid is water)
+
+Constraints:
+
+length of island_map is equal to width * height
+
+width >0
+height >0
+
+Ex:
+Input 1:
+width=5
+height=4
+island_map =[1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+
+Corresponding Map:
+1 1 0 1 1
+0 0 1 1 0
+0 1 0 0 0
+0 0 0 0 1
+
+There are 4 islands:
+1 1 x x x
+x x x x x
+x x x x x
+x x x x x
+
+x x x 1 1
+x x 1 1 x
+x x x x x
+x x x x x
+
+x x x x x
+x x x x x
+x 1 x x x
+x x x x x
+
+x x x x x
+x x x x x
+x x x x x
+x x x x 1
+
+Please note that diagonal neighbor lands don't count as part of the island.
+---------------------------------------------------------------------------------
+Output 1: 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
