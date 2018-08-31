@@ -71,7 +71,13 @@ public class DifferenceBetweenAssignAndEquals {
 		 
 		 System.out.println("Wrapper class and primitive comparison: objectC equals a :" + objectC.equals(a));
 	
-		*/	
+		*/
+/*-------------------------------------------------------------------*/	
+		
+		String string1 = "Ömer";
+        String string2 = "Ömer";
+        
+        System.out.println("string1 equals string2: " + string1.equals(string2));
 /*-------------------------------------------------------------------*/
 		Person p1 = new Person("Ali");
 		Person p2 = new Person("Ali");
